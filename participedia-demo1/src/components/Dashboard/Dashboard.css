@@ -1,0 +1,105 @@
+.dashboard {
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-header h1 {
+    color: #242f6e;
+    font-size: 28px; /* Slightly larger font size */
+    font-weight: bold;
+    margin-bottom: 10px; /* Adds space below the title */
+  }
+  
+  .dashboard-subheading {
+    display: flex;
+    align-items: center; /* Aligns icon and text vertically */
+    justify-content: center; /* Centers the content */
+    gap: 8px; /* Adds space between icon and text */
+    color: #808080; /* Subtle text color */
+    font-size: 14px;
+    margin-bottom: 20px; /* Adds space below the subheading */
+  }
+  
+  .subheading-icon {
+    font-size: 16px; /* Size of the globe icon */
+  }
+  
+  .subheading-text {
+    font-size: 14px;
+  }
+  
+  
+  .dashboard-content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows cards to wrap properly */
+    margin-bottom: 20px;
+  }
+  
+  /* Regional Activity Section */
+  .dashboard-regional-activity {
+    margin-top: 40px;
+  }
+  
+  .dashboard-regional-activity h2 {
+    color: #242f6e;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .regional-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures cards wrap on smaller screens */
+  }
+  
+  .regional-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px; /* Fixed card width */
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .regional-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .regional-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ec2024;
+    margin-bottom: 10px;
+  }
+  
+  .regional-label {
+    font-size: 14px;
+    color: #808080;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .regional-cards {
+      flex-direction: column; /* Stack the cards vertically */
+      align-items: center;
+    }
+  
+    .regional-card {
+      width: 100%; /* Make the cards full-width */
+      max-width: 300px;
+    }
+  }
+  

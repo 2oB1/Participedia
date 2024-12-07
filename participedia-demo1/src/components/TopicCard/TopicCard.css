@@ -1,0 +1,38 @@
+.topic-card {
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topic-card:hover {
+  background-color: #f9f9f9;
+  transform: scale(1.02);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.topic-card-title {
+  color: #ec2024;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.topic-card-description {
+  font-size: 14px;
+  color: #4d4d4d;
+}
+
+.topic-card-stat {
+  font-size: 12px;
+  color: #808080;
+  margin: 5px 0;
+}
+

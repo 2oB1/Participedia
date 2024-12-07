@@ -1,0 +1,40 @@
+.search-bar {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px 20px;
+    background-color: #ec2024;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .search-recent {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .search-recent ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .search-recent li {
+    margin-bottom: 5px;
+  }
+  

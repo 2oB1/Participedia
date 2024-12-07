@@ -1,0 +1,18 @@
+.app {
+  background-color: #f5f5f5; /* Light background */
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.app-main {
+  padding: 20px;
+}
+
+.topic-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Spacing between topic cards */
+  margin-top: 20px;
+}
+
